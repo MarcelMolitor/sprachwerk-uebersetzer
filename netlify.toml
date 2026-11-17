@@ -8,4 +8,4 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "DENY"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://api.mymemory.translated.net; font-src 'self'; object-src 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'none'; base-uri 'none'; form-action 'self'; script-src 'self' 'sha256-OcnoROJ/EE1JC3xyCf6g6nOW0WVX2WeYP5FlH+rfRbw='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https://api.mymemory.translated.net; font-src 'self'; object-src 'none'; frame-ancestors 'none'"
